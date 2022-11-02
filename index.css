@@ -1,0 +1,86 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.head-img {
+    background-image: url('./resources/img/nightCityLights.jpg');
+}
+
+.social-container {
+    width: 100%;
+    max-width: 300px;
+    padding-top: 18%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.profile-pic {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.profile-name {
+    color: rgb(60, 197, 221);
+}
+
+.social-links a {
+    padding: 0 10px 0 10px
+}
+
+.social-links a:visited {
+    text-decoration-style: none;
+}
+
+.bi {
+    color:rgb(60, 197, 221);
+}
+
+.social-icon {
+    font-size: larger;
+}
+
+.body-img {
+    background-image: linear-gradient(140deg, rgba(107, 242, 199, 0.3), rgba(26, 209, 170, 0.893));
+}
+
+.aboutme_container {
+    width: 100%;
+    margin: 0;
+    
+}
+
+.aboutme_img {
+    width: 23%;
+    height: 240px;
+    padding-left: 15%;
+    padding-top: 5%;
+    display: inline-block;
+}
+
+.aboutme_img img {
+    width: 200px;
+    height: 100%;
+}
+
+.aboutme {
+    max-width: 40%;
+    margin-left: 2%;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.aboutme h2 {
+    margin: 0;
+}
