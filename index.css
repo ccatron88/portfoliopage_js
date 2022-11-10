@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -5,6 +9,24 @@ body, html {
 
 .bg {
     min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.bg-two {
+    min-height: 55%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.bg-three {
+    min-height: 45%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,13 +74,41 @@ body, html {
 }
 
 .body-img {
-    background-image: linear-gradient(140deg, rgba(107, 242, 199, 0.3), rgba(26, 209, 170, 0.893));
+    /* background-image: linear-gradient(140deg, rgba(107, 242, 199, 0.3), rgba(26, 209, 170, 0.893)); */
+
+    background-image: linear-gradient(140deg, rgb(50, 13, 86, 1), rgba(69, 21, 118, 0.764));
+    color: white;
+}
+
+.arrow_container {
+    position: absolute;    
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+svg {
+    margin: 5px;
+}
+
+.arrow {
+    stroke:#fff;
+    fill:#fff;
+    fill-opacity:0;
+    stroke-opacity:0;
+}
+
+.arrow-one {
+    rotate: -30deg;
+}
+
+.arrow-three {
+    rotate: 30deg;
 }
 
 .aboutme_container {
     width: 100%;
     margin: 0;
-    
 }
 
 .aboutme_img {
@@ -83,4 +133,8 @@ body, html {
 
 .aboutme h2 {
     margin: 0;
+}
+
+.projects_container {
+    background-image: linear-gradient(140deg, rgba(69, 21, 118, 0.873), rgba(69, 21, 118, 0.335));
 }
